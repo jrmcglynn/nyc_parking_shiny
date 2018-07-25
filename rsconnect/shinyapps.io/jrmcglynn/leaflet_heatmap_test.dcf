@@ -1,0 +1,12 @@
+name: leaflet_heatmap_test
+title: leaflet_heatmap_test
+username:
+account: jrmcglynn
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 384613
+bundleId: 1499560
+url: https://jrmcglynn.shinyapps.io/leaflet_heatmap_test/
+when: 1532528563.44535
+asMultiple: FALSE
+asStatic: FALSE
