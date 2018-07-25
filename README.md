@@ -1,1 +1,1 @@
-Application link: https://github.com/jrmcglynn/nyc_parking_shiny
+Application link: https://jrmcglynn.shinyapps.io/nyc_parking_tickets/
