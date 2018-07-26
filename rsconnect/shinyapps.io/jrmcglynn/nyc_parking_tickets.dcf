@@ -5,8 +5,8 @@ account: jrmcglynn
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 387858
-bundleId: 1499573
+bundleId: 1500916
 url: https://jrmcglynn.shinyapps.io/nyc_parking_tickets/
-when: 1532528804.43293
+when: 1532571333.77532
 asMultiple: FALSE
 asStatic: FALSE

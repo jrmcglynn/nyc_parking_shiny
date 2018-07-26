@@ -73,7 +73,7 @@ shinyUI(dashboardPage(
                   selectizeInput('boro', label='Choose Borough',
                                  choices=levels(nyctickettrends$boro)),
                   selectizeInput('metric', label='Choose Metric',
-                                             choices=metric_choices, selected='Tickets'),
+                                             choices=metric_choices, selected='Tickets (q2 2018)'),
                   checkboxGroupInput('plate_types', 'Vehicle Types',
                                                 choices=plate_type_choices, selected = plate_type_choices),
                   checkboxGroupInput('violation_categories', 'Violation Category',
@@ -85,7 +85,7 @@ shinyUI(dashboardPage(
       
       tabItem(tabName = 'heatmap',
     sidebarLayout(
-      mainPanel(h3(tags$b('Localized Parking Ticket Density in Brooklyn'), tags$i('(q3 2018)'), align='center'),
+      mainPanel(h3(tags$b('Localized Parking Ticket Density in Brooklyn'), tags$i('(q2 2018)'), align='center'),
                 leafletOutput("heatmap", height = 550),
                 'Data points geocoded courtesy of the Open Steet Maps API and the Data Scientist Toolkit'),
       sidebarPanel(

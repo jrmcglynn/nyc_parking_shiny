@@ -38,7 +38,7 @@ shinyServer(function(input, output) {
   )
   
   precincts_r2 = reactive(
-    if(input$metric == 'Tickets (q3 2018) normalized by area') {
+    if(input$metric == 'Tickets (q2 2018) normalized by area') {
       mutate(precincts_r(), metric=metric*1000/precinct_area)} else{precincts_r()}
   )
   
